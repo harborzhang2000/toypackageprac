@@ -4,6 +4,8 @@
 # toypackageprac
 
 <!-- badges: start -->
+
+![](https://github.com/harborzhang2000/toypackageprac/actions/workflows/test-coverage.yaml/badge.svg)
 <!-- badges: end -->
 
 The goal of toypackageprac is to …
