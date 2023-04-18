@@ -9,3 +9,4 @@ run:
 .PHONY: check
 check:
 	Rscript -e "devtools::check()"
+
