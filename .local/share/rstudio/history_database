@@ -1,0 +1,53 @@
+0:use_git()
+0:library(devtools)
+0:use_git()
+0:use_r("animal_say")
+0:animal_say <- function(number, string) {
+0:if (number = 1) {
+0:animal_say <- function(number, string) {
+0:if (number == 1) {
+0:return(cowsay::say(string, by = "cat"))
+0:} else {
+0:if (number == 2) {
+0:return(cowsay::say(string, by = "cow"))
+0:} else {
+0:return("give me a numebr 1 or 2")
+0:}
+0:}
+0:}
+0:animal_say(1, "fuck")
+0:animal_say(2,"shit")
+0:animal_say("11", "lalala")
+0:load_all()
+0:check()
+0:use_mit_license()
+0:use_package("cowsay")
+0:check()
+0:document()
+0:check()
+0:load_all()
+0:rm(list = c("animal_say"))
+0:load_all()
+0:?animal_say
+0:install()
+0:?animal_say
+0:use_testthat()
+0:use_test()
+0:animal_say("112121", "lala")
+0:animal_say(1, "lala")
+0:animal_say(3, "lala")
+0:animal_say(1,1)
+0:animal_say(1, NA)
+0:test()
+0:use_readme_rmd()
+0:remove.packages("toypackageprac", lib="~/AppData/Local/R/win-library/4.2")
+0:install.packages("devtools")
+0:# install.packages("devtools")
+0:devtools::install_github("harborzhang2000/toypackageprac")
+0:library(toypackageprac)
+0:animal_say(1, "kill ur ass!")
+0:library(devtools)
+0:use_github_action("test-coverage")
+0:report
+0:report()
+0:check()
